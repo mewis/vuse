@@ -1,5 +1,9 @@
 # Vuse
 
+Forked from https://github.com/baianat/vuse
+
+I am amending this to my peronsal use as the original is no longer active.
+
 <p align="center">
   <a href="https://github.com/baianat/vuse" target="_blank">
     <img width="450" src="https://github.com/baianat/vuse/blob/master/Logo/Vuse_Logo_Horizontal_Gradient.png">
