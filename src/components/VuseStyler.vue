@@ -145,10 +145,10 @@ export default {
   created () {
     if (this.type === 'button') {
       this.url = this.section.get(`${this.name}.href`);
-      this.el.contentEditable = 'true';
+      this.el.contentEditable = this.$builder.isEditing ? 'true' : 'false';
     }
     if (this.type === 'text') {
-      this.el.contentEditable = 'true';
+      this.el.contentEditable = this.$builder.isEditing ? 'true' : 'false';
     }
   },
   mounted () {
